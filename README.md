@@ -17,10 +17,10 @@
 
 **方式一：下载仓库后用本地目录安装**（推荐，最稳）
 
-在 <https://github.com/huanyuan6657-cmd/dsh-completion-sound> 点 **Code → Download ZIP** 解压，或用 Git：
+在 <https://github.com/huanyuan6657-cmd/dsh-end-sound> 点 **Code → Download ZIP** 解压，或用 Git：
 
 ```powershell
-git clone https://github.com/huanyuan6657-cmd/dsh-completion-sound.git
+git clone https://github.com/huanyuan6657-cmd/dsh-end-sound.git
 ```
 
 然后在 DSH 里：
@@ -34,7 +34,7 @@ plugin_manager install_bundle target="<解压/克隆出来的绝对路径>"
 bundle 安装走的是包管理器语义，所以 `github:<账号>/<仓库>` 这类 spec 通常也能直接用：
 
 ```text
-plugin_manager install_bundle target="github:huanyuan6657-cmd/dsh-completion-sound"
+plugin_manager install_bundle target="github:huanyuan6657-cmd/dsh-end-sound"
 ```
 
 装完不需要重启 DSH：宿主半侧会随 bundle 装配生效，浏览器半侧会热加载；如果界面没变化，刷新一次页面即可。

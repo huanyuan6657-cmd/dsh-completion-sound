@@ -55,7 +55,7 @@ a { color: #2563eb; }
 <hr>
 <h2>二、安装</h2>
 <h3>方法一：让 DSH 自己装（推荐）</h3>
-<ol><li>拿到插件文件夹，三选一： - 从 GitHub 下载 ZIP：&lt;https://github.com/huanyuan6657-cmd/dsh-completion-sound&gt; → <strong>Code → Download ZIP</strong>，解压； - 从朋友那里拿到的 <code>dsh-completion-sound-1.2.0.zip</code>，解压； - 有 Git 的话直接 <code>git clone https://github.com/huanyuan6657-cmd/dsh-completion-sound.git</code>。 把解压出来的 <code>dsh-completion-sound</code> 文件夹放到一个固定的地方，比如 <code>D:\dsh-plugins\</code>。路径里尽量别有空格和中文，能省掉一堆麻烦。</li><li>在 DSH 的对话框里发一句话（把路径换成你实际解压的位置）：<pre><code>用 plugin_manager 把这个插件装上：D:\dsh-plugins\dsh-completion-sound</code></pre></li><li>回执里出现 <code>"application": "applied"</code> 或 <code>"installed": true</code> 就成功了，刷新一下页面。</li></ol>
+<ol><li>拿到插件文件夹，三选一： - 从 GitHub 下载 ZIP：&lt;https://github.com/huanyuan6657-cmd/dsh-end-sound&gt; → <strong>Code → Download ZIP</strong>，解压； - 从朋友那里拿到的 <code>dsh-end-sound-1.2.0.zip</code>，解压； - 有 Git 的话直接 <code>git clone https://github.com/huanyuan6657-cmd/dsh-end-sound.git</code>。 把解压出来的 <code>dsh-completion-sound</code> 文件夹放到一个固定的地方，比如 <code>D:\dsh-plugins\</code>。路径里尽量别有空格和中文，能省掉一堆麻烦。</li><li>在 DSH 的对话框里发一句话（把路径换成你实际解压的位置）：<pre><code>用 plugin_manager 把这个插件装上：D:\dsh-plugins\dsh-completion-sound</code></pre></li><li>回执里出现 <code>"application": "applied"</code> 或 <code>"installed": true</code> 就成功了，刷新一下页面。</li></ol>
 <h3>方法二：更新已装的版本</h3>
 <p>用新文件夹<strong>覆盖旧文件夹</strong>，然后在「设置 → 插件」里把它关掉、再打开一次（或者重启 DSH）。 原因是宿主那一半代码（<code>index.js</code>）有模块缓存，不重挂一次还是旧的；界面那一半（<code>client.js</code>）改完会自动热加载，不用管。</p>
 <h3>方法三：手动装（不推荐，容易出错）</h3>
