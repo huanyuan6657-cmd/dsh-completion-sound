@@ -1,0 +1,5 @@
+# dsh-completion-sound —— 把「完成任务音效」挂进 DSH 配置树。
+# 约束：id 必须与包名一致且全局唯一；id 那一行不能写行尾注释。
+- insert:
+    - id: dsh-completion-sound
+      name: 'dsh-completion-sound'

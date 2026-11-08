@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Completion sound">
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#2b7fff" opacity="0.12"/>
+  <path d="M19 26.6h6.4l8.6-6.4v23.6l-8.6-6.4H19a2.2 2.2 0 0 1-2.2-2.2v-6.4A2.2 2.2 0 0 1 19 26.6Z" fill="#2b7fff"/>
+  <path d="M42 25.4a9.2 9.2 0 0 1 0 13.2" fill="none" stroke="#2b7fff" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M47.8 20.2a16.6 16.6 0 0 1 0 23.6" fill="none" stroke="#7dd3fc" stroke-width="3.4" stroke-linecap="round"/>
+</svg>
