@@ -1,4 +1,4 @@
-# 完成任务音效 · dsh-completion-sound
+# 完成任务音效 · dsh-end-sound
 
 > DSH 每跑完一轮对话就播一段提示音；音效可换、音量可调，也能换成自己的音频。
 
