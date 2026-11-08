@@ -34,6 +34,14 @@
     "dry-run": "npm pack --dry-run"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanyuan6657-cmd/dsh-completion-sound.git"
+  },
+  "homepage": "https://github.com/huanyuan6657-cmd/dsh-completion-sound#readme",
+  "bugs": {
+    "url": "https://github.com/huanyuan6657-cmd/dsh-completion-sound/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
