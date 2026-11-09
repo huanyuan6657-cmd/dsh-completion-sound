@@ -1,4 +1,4 @@
-# 完成任务音效 · dsh-end-sound
+# 完成任务音效 · dsh-completion-sound
 
 > DSH 每跑完一轮对话就播一段提示音；音效可换、音量可调，也能换成自己的音频。
 
@@ -15,26 +15,24 @@
 
 需要已装好 DSH，并且能调用 `plugin_manager`（Host 侧工具）。
 
-**方式一：下载仓库后用本地目录安装**（推荐，最稳）
-
-在 <https://github.com/huanyuan6657-cmd/dsh-end-sound> 点 **Code → Download ZIP** 解压，或用 Git：
+**方式一：克隆后用本地目录安装**（推荐，最稳）
 
 ```powershell
-git clone https://github.com/huanyuan6657-cmd/dsh-end-sound.git
+git clone https://github.com/<你的账号>/dsh-completion-sound.git
 ```
 
 然后在 DSH 里：
 
 ```text
-plugin_manager install_bundle target="<解压/克隆出来的绝对路径>"
+plugin_manager install_bundle target="<克隆下来的绝对路径>\dsh-completion-sound"
 ```
 
-**方式二：直接给仓库 spec**
+**方式二：直接给包名 / 仓库 spec**
 
 bundle 安装走的是包管理器语义，所以 `github:<账号>/<仓库>` 这类 spec 通常也能直接用：
 
 ```text
-plugin_manager install_bundle target="github:huanyuan6657-cmd/dsh-end-sound"
+plugin_manager install_bundle target="github:<你的账号>/dsh-completion-sound"
 ```
 
 装完不需要重启 DSH：宿主半侧会随 bundle 装配生效，浏览器半侧会热加载；如果界面没变化，刷新一次页面即可。

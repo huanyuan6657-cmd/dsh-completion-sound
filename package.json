@@ -34,14 +34,6 @@
     "dry-run": "npm pack --dry-run"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huanyuan6657-cmd/dsh-end-sound.git"
-  },
-  "homepage": "https://github.com/huanyuan6657-cmd/dsh-end-sound#readme",
-  "bugs": {
-    "url": "https://github.com/huanyuan6657-cmd/dsh-end-sound/issues"
-  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
